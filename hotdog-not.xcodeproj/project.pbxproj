@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F63C9112598BC430022CCF8 /* seeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F63C9112598BC430022CCF8 /* hotdog-not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hotdog-not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F63C9142598BC430022CCF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F63C9162598BC430022CCF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F63C9182598BC430022CCF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		5F63C9082598BC430022CCF8 = {
 			isa = PBXGroup;
 			children = (
-				5F63C9132598BC430022CCF8 /* seeFood */,
+				5F63C9132598BC430022CCF8 /* hotdog-not */,
 				5F63C9122598BC430022CCF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		5F63C9122598BC430022CCF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F63C9112598BC430022CCF8 /* seeFood.app */,
+				5F63C9112598BC430022CCF8 /* hotdog-not.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5F63C9132598BC430022CCF8 /* seeFood */ = {
+		5F63C9132598BC430022CCF8 /* hotdog-not */ = {
 			isa = PBXGroup;
 			children = (
 				5F63C9142598BC430022CCF8 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				5F63C9222598BC460022CCF8 /* Info.plist */,
 				5F63C9292598C8770022CCF8 /* Inceptionv3.mlmodel */,
 			);
-			path = seeFood;
+			path = "hotdog-not";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F63C9102598BC430022CCF8 /* seeFood */ = {
+		5F63C9102598BC430022CCF8 /* hotdog-not */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F63C9252598BC460022CCF8 /* Build configuration list for PBXNativeTarget "seeFood" */;
+			buildConfigurationList = 5F63C9252598BC460022CCF8 /* Build configuration list for PBXNativeTarget "hotdog-not" */;
 			buildPhases = (
 				5F63C90D2598BC430022CCF8 /* Sources */,
 				5F63C90E2598BC430022CCF8 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = seeFood;
+			name = "hotdog-not";
 			productName = seeFood;
-			productReference = 5F63C9112598BC430022CCF8 /* seeFood.app */;
+			productReference = 5F63C9112598BC430022CCF8 /* hotdog-not.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F63C90C2598BC430022CCF8 /* Build configuration list for PBXProject "seeFood" */;
+			buildConfigurationList = 5F63C90C2598BC430022CCF8 /* Build configuration list for PBXProject "hotdog-not" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F63C9102598BC430022CCF8 /* seeFood */,
+				5F63C9102598BC430022CCF8 /* hotdog-not */,
 			);
 		};
 /* End PBXProject section */
@@ -220,6 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,6 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -292,7 +294,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KLRM5P4S7;
-				INFOPLIST_FILE = seeFood/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/hotdog-not/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +313,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KLRM5P4S7;
-				INFOPLIST_FILE = seeFood/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/hotdog-not/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F63C90C2598BC430022CCF8 /* Build configuration list for PBXProject "seeFood" */ = {
+		5F63C90C2598BC430022CCF8 /* Build configuration list for PBXProject "hotdog-not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F63C9232598BC460022CCF8 /* Debug */,
@@ -335,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F63C9252598BC460022CCF8 /* Build configuration list for PBXNativeTarget "seeFood" */ = {
+		5F63C9252598BC460022CCF8 /* Build configuration list for PBXNativeTarget "hotdog-not" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F63C9262598BC460022CCF8 /* Debug */,

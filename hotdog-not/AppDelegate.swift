@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  seeFood
+//  hotdog-not
 //
 //  Created by Paweł Kozioł on 27/12/2020.
 //
